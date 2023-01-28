@@ -1,0 +1,848 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arvo', serif;
+}
+
+
+/*-------HEADER-------*/
+
+header{
+    background-color: #f567be;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: 1s;
+}
+
+header img:hover{
+    transform: scale(1.1);
+}
+
+h1 {
+    color: #38b6ff;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 10px 15px;  
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 1s;
+}
+header nav ul li a:hover{
+    color: black;
+}
+
+
+
+.fixed{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+    
+.fixed img{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+.fixed img:hover{
+    transform: scale(1.5);
+}
+/*-----------MAIN---------*/
+
+/*?------INICIO------*/
+.hero{
+
+    width: 100%;
+    height: 88vh;
+    
+    background-image: url("../img/foto-hero-section.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero h1{
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    -webkit-text-stroke: 1.5px white;
+
+}
+
+.hero p{
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white;
+}
+
+.queEs {
+    background-color: #38b6ff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.queEs img{
+    width: 50%;
+}
+.queEsLoQuiero h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.queEsLoQuiero p{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 60px;
+}
+
+.queEsLoQuiero a{
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #f567be;
+    padding: 5px 10px;
+    /*border-radius: 7%;*/
+    transition: 1s;
+}
+.queEsLoQuiero a:hover{
+    color: black;
+        
+}
+.cincoVentajas{
+    background-color: #fdc4096b;
+    display: flex;
+}
+
+.cincoVentajasCinco{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.cincoVentajasCinco h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.cincoVentajasCinco ul{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 60px;
+    list-style: none;
+}
+.cincoVentajas img{
+    width: 50%;
+}
+.regalo{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.regalo h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.regaloRegalo{
+    display: flex;
+}
+.regaloRegalo img{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.regaloFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.regaloFormulario p{
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.formularioFormulario{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+
+}
+.formularioFormulario div label{
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.formularioFormulario input{
+    color: white;
+    text-align: center;
+    background-color: #f567be;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+    transition: 1s;
+}
+.formularioFormulario input:hover{
+    color: black;
+}
+
+.testimonios{
+    background-color: #f567be;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonios h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50px;
+
+}
+.testimoniosVideos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimoniosVideos p{
+    width: 30%;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.testimoniosVideos iframe{
+    width: 469px;
+    height: 833px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+/*?-------MASTERCLASS GRATUITA----*/
+.heroMaster{
+
+    width: 100%;
+    height: 88vh;
+    
+    background-image: url("../img/crayones.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.heroMaster h1{
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    -webkit-text-stroke: 1.5px white;
+
+}
+
+.heroMaster p{
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white;
+}
+
+
+/*?Accede en VIVO*/
+/*?Hecho con .regalo*/
+
+/*?accede a una Masterclass Grabada*/
+/*?Hecho con .regalo*/
+
+
+/*?------FORMACIONES-----*/
+
+
+
+
+.astronauta {
+    width: 100%;
+    height: 88vh;
+    
+    background-image: url("../img/ninio-astronauta-acostado.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.astronauta h1{
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 40%;
+    -webkit-text-stroke: 1.5px white;
+
+}
+
+.astronauta p{
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white;
+}
+
+/*Formacion Gratis hecha con queEs y queEsLoQuiero*/
+
+.cursosPagos{
+    width: 100%;
+    /*height: 85vh;*/
+    text-align: center;
+    height: auto;
+}
+
+.cursosPagos h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.cursosPagos p{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+
+.cursosPagosModulos{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cursosPagosModulos img{
+    width: 250px;
+    height: 250px;
+    
+}
+.cursosPagosModulos div{
+    border: 2px solid gray;
+    width: 255px;
+    height: 510px;
+    margin: 30px;
+}
+
+.cursosPagosModulos h3{
+    margin-bottom: 20px;
+
+}
+
+.cursosPagosModulos ul{
+    margin-bottom: 20px;
+
+    list-style: none;
+}
+
+.cursosPagosModulos a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f567be;
+    padding: 5px 10px;
+
+}
+
+/*?-------FUNDAMENTOS EDUCATIVOS----*/
+.lamparita{
+    width: 100%;
+    height: 88vh;
+    
+    
+    background-image: url("../img/mujer-con-lamparita.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.lamparita h1{
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 60%;
+    -webkit-text-stroke: 1.5px white;
+
+}
+
+.lamparita p{
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white;
+}
+
+.fundamentos img{
+    width: 200px;
+    height: 200px;
+}
+
+/*?-------CONTACTO------------*/
+
+.heroContacto{
+
+    width: 100%;
+    height: 88vh;
+    
+    background-image: url("../img/ninias-telefono.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.heroContacto h1{
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    /*background-color: rgba(255, 255, 255, 0.267);
+    border-radius: 25px;*/
+    -webkit-text-stroke: 1.5px white;
+}
+
+.heroContacto p{
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 500;
+    /*background-color: rgba(255, 255, 255, 0.267);
+    border-radius: 25px;*/
+    -webkit-text-stroke: 1px white;
+}
+
+/*---------- FOOTER---------- */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: 1s;
+}
+footer img:hover{
+    transform: scale(1.1);
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+/*?MEDIA QUERY*/
+@media screen and (max-width:1260px){
+    .regaloFormulario p{
+        font-size: 25px;
+    }
+        
+    .formularioFormulario div label{
+        font-size: 25px;
+    }
+    
+    .formularioFormulario input{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:1100px){
+    .hero p{
+        width: 40%; 
+    }
+
+    .queEsLoQuiero h2{
+        font-size: 50px;
+        margin: 15px;
+    }
+    
+    .queEsLoQuiero p{
+        margin: 40px;
+        font-size: 25px;
+    }
+    .queEsLoQuiero a{
+        font-size: 25px;
+    }
+
+    .cincoVentajasCinco h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .cincoVentajasCinco ul{
+        font-size: 20px;
+        margin: 40px;
+    }
+    .formularioFormulario div label{
+        margin: 10px;
+    }
+    
+    .formularioFormulario input{
+        margin: 10px;
+    }
+    .testimoniosVideos p{
+        margin: 10px;
+        font-size: 20px;
+    }
+    /*?MASTERCLASS*/
+    .heroMaster p{
+        width: 40%;
+    }
+    /*?FORMACIONES*/
+    .astronauta p{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1010px){
+    
+    header nav ul li{
+        margin: 10px;
+    }
+    
+    header nav ul li a{
+        font-size: 15px;
+    }
+    .queEsLoQuiero h2{
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    .queEsLoQuiero p{
+        margin: 25px;
+        font-size: 20px;
+    }
+    .queEsLoQuiero a{
+        font-size: 20px;
+    }
+    .regaloFormulario p{
+        font-size: 20px;
+        margin: 15px;
+    }
+        
+    .formularioFormulario div label{
+        font-size: 20px;
+        margin: 15px;
+    }
+    
+    .formularioFormulario input{
+        font-size: 20px;
+        margin: 15px;
+    }
+    .testimoniosVideos iframe{
+        width: 375px;
+        height: 666px;
+    }
+}
+
+    
+@media screen and (max-width:870px){
+    .hero p{
+        width: 45%; 
+    }
+    .regaloRegalo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimoniosVideos{
+        flex-direction: column;
+    }
+    .testimoniosVideos iframe{
+        width: 469px;
+        height: 833px;
+    }
+    .testimoniosVideos p{
+        width: 50%;
+        margin: 20px;
+        padding-bottom: 30px;
+        
+    }
+    /*?MASTERCLASS*/
+    .heroMaster p{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:770px){
+    /*?INDEX*/
+    header{
+        flex-direction: column;
+    }
+    .hero h1{
+        font-size: 65px;
+    }
+    .hero p{
+        font-size: 30px;
+    }
+    .hero {
+        background-image: url("../img/hero-section-media-query.png");
+    }
+    .queEs {
+        flex-direction: column;
+        height: 1000px;
+    }
+    .queEsLoQuiero p{
+        margin: 40px;
+    }
+    .queEsLoQuiero a{
+        margin-bottom: 20px;
+    }
+    .queEs img{
+        width: 80%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .cincoVentajas{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .cincoVentajas img{
+        width: 80%;
+    }   
+    /*?MASTERCLASS*/
+    .heroMaster h1{
+        font-size: 65px;
+    }
+    .heroMaster p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:660px){
+    
+    header nav ul{
+        flex-direction: column;
+    }
+
+    header nav ul li{
+        margin: 7px;
+    }
+
+    header img{
+        width: 70px;
+        height: 70px;
+    }
+    .fixed{
+        right: 30px;
+        bottom: 30px;
+    }
+        
+    .fixed img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .hero p{
+        width: 55%; 
+    }
+    .cincoVentajasCinco ul{
+        margin: 20px;
+    }
+    .regalo h2{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .testimonios h2{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    /*?MASTERCLASS*/
+    .heroMaster p{
+        width: 55%; 
+    }
+    footer img{
+        width: 70px;
+        height: 70px;
+        margin: 7px;
+    }
+    footer h3{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    /*?INDEX*/
+    .hero h1{
+        font-size: 60px;
+        margin: 30px 10px 10px 10px;
+    }
+    .testimoniosVideos iframe{
+        width: 375px;
+        height: 666px;
+    }
+    .testimoniosVideos p{
+        width: 70%;
+    }
+
+    /*?MASTERCLASS*/
+    .heroMaster h1{
+        font-size: 60px;
+        margin: 30px 10px 10px 10px;
+    }
+}
+
+@media screen and (max-width:440px){
+    
+    /*?INDEX*/
+    .hero h1{
+        font-size: 50px;
+        width: 40%;
+    }
+    .hero p{
+        font-size: 25px;
+    }
+    .regalo h2{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .regaloFormulario p{
+        font-size: 15px;
+        margin: 15px;
+    }
+        
+    .formularioFormulario div label{
+        font-size: 15px;
+        margin: 12px;
+    }
+    
+    .formularioFormulario input{
+        font-size: 15px;
+        margin: 12px;
+    }
+    .testimoniosVideos iframe{
+        width: 338px;
+        height: 600px;
+    }
+
+    /*?MASTERCLASS*/
+    .heroMaster h1{
+        font-size: 50px;
+        width: 40%;
+    }
+    .heroMaster p{
+        font-size: 25px;
+    }
+    footer img{
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+}
+
+/*.heroMaster{
+
+    width: 100%;
+    height: 88vh;
+    
+    background-image: url("../img/crayones.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.heroMaster h1{
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    -webkit-text-stroke: 1.5px white;
+
+}
+
+.heroMaster p{
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 500;
+    -webkit-text-stroke: 1px white;
+}
+*/
