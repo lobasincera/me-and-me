@@ -64,8 +64,8 @@ header nav ul li a:hover{
 
 .fixed{
     position: fixed;
-    right: 40px;
-    bottom: 40px;
+    right: 20px;
+    bottom: 100px;
 }
     
 .fixed img{
@@ -443,11 +443,69 @@ header nav ul li a:hover{
     -webkit-text-stroke: 1.5px white;
 }
 
+.fundamentos{
+    width: 100%;
+    /*height: 85vh;*/
+    text-align: center;
+    height: auto;
+    /*background-color: #38b6ff;*/
+}
+
 .fundamentos img{
     width: 200px;
     height: 200px;
 }
 
+.fundamentos h2{
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.queEsLoQuiero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.queEsLoQuiero h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.gridFundamentos {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 340px;
+    gap: 5px;
+}
+
+.gridFundamentos div img{
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+
+}
+.grid-item-2{
+    grid-column: span 2;
+}
+.grid-item-5{
+    grid-row: span 2;
+}
+.grid-item-8{
+    grid-column: span 2;
+}
+.grid-item-10{
+    grid-column: span 2;
+}
+.grid-item-12{
+    grid-column: span 2;
+
+}
+.grid-item-14{
+    grid-column: span 2;
+}
 /*?-------CONTACTO------------*/
 
 .heroContacto{
@@ -514,6 +572,16 @@ footer img:hover{
 }
 
 /*?MEDIA QUERY*/
+
+@media screen and (max-width:1310px){
+/*?FUNDAMENTOS*/
+    .lamparita h1{
+    font-size: 70px;
+}
+}
+
+
+
 @media screen and (max-width:1260px){
     .regaloFormulario p{
         font-size: 25px;
@@ -573,6 +641,53 @@ footer img:hover{
     /*?FORMACIONES*/
     .astronauta p{
         width: 40%;
+    }
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        margin: 30px 20px 10px 20px;
+    }
+    
+    .lamparita p{
+        margin: 15px;
+        width: 40%;
+        font-size: 35px;
+        
+    }
+    .gridFundamentos {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .grid-item-2{
+        grid-column: span 1;
+    }
+    .grid-item-2 h3{
+        font-size: 25px; 
+    }
+    .grid-item-6{
+        grid-row: span 1;
+    }
+    .grid-item-7{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .grid-item-8{
+        grid-column: span 2;
+    }
+    .grid-item-10{
+        grid-column: span 1;
+        
+    }
+    .grid-item-10 h3{
+        font-size: 25px;        
+    }
+    .grid-item-11{
+        grid-column: span 1;
+    }
+    .grid-item-13{
+        grid-column: span 2;
+        
+    }
+    .grid-item-14{
+        grid-column: span 2;
     }
 }
 
@@ -643,6 +758,33 @@ footer img:hover{
     .heroMaster p{
         width: 45%;
     }
+    /*?FUNDAMENTOS*/
+    .gridFundamentos {
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .grid-item-5{
+        grid-row: span 1;
+    }
+    .grid-item-6{
+        grid-row: span 1;
+    }
+    .grid-item-8{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .grid-item-12{
+        grid-column: span 1;
+    }
+    .grid-item-13{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .grid-item-14{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
 }
 
 @media screen and (max-width:770px){
@@ -688,6 +830,30 @@ footer img:hover{
     }
     .heroMaster p{
         font-size: 30px;
+    }
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        font-size: 65px;
+    }
+    
+    .lamparita p{
+        font-size: 30px;
+    }
+    .fundamentos h2{
+        font-size: 50px;
+    }
+    .gridFundamentos {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .grid-item-7{
+        grid-column: span 1;
+    }
+}
+
+@media screen and (max-width:690px){
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        width: 70%;
     }
 }
 
@@ -743,7 +909,30 @@ footer img:hover{
         font-size: 15px;
         margin: 5px;
     }
+}
 
+
+@media screen and (max-width:600px){
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        font-size: 60px;
+        margin: 30px 10px 10px 10px;
+    }
+    .lamparita p{
+        width: 55%;
+    }
+    .fundamentos{
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .fundamentos h2{
+        font-size: 40px;
+    }
+    
+    .gridFundamentos {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 @media screen and (max-width:500px){
@@ -808,41 +997,32 @@ footer img:hover{
     .heroMaster p{
         font-size: 25px;
     }
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        font-size: 50px;
+        
+    }
+    .lamparita p{
+        width: 75%;
+    }
+    .fundamentos{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .fundamentos h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .gridFundamentos {
+        grid-auto-rows: 300px;
+    }   
+    .gridFundamentos h3{
+        font-size: 25px;
+    }
     footer img{
         width: 60px;
         height: 60px;
         margin: 5px;
     }
 }
-
-/*.heroMaster{
-
-    width: 100%;
-    height: 88vh;
-    
-    background-image: url("../img/crayones.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-}
-
-.heroMaster h1{
-    margin: 50px 20px 20px 20px;
-    padding: 10px;
-    font-size: 80px;
-    display: inline-block;
-    width: 30%;
-    -webkit-text-stroke: 1.5px white;
-
-}
-
-.heroMaster p{
-    margin: 20px;
-    width: 30%;
-    font-size: 40px;
-    font-weight: 500;
-    -webkit-text-stroke: 1px white;
-}
-*/
