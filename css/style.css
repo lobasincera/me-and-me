@@ -12,8 +12,21 @@ body{
 
 
 /*-------HEADER-------*/
+header nav{
+    background-color: #ff66c4;
+}
 
-header{
+
+
+header nav a{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+/*header{
     background-color: #f567be;
     display: flex;
     justify-content: space-between;
@@ -33,12 +46,8 @@ header img:hover{
     transform: scale(1.1);
 }
 
-h1 {
-    color: #38b6ff;
-    font-size: 50px;
-    font-family: 'Arvo', serif;
 
-}
+
 
 header nav ul{
     list-style: none;
@@ -58,7 +67,7 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     color: black;
-}
+}*/
 
 
 
@@ -91,6 +100,11 @@ header nav ul li a:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+}
+h1 {
+    color: #38b6ff;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
 }
 
 .hero h1{
@@ -600,6 +614,7 @@ footer img:hover{
 @media screen and (max-width:1100px){
     .hero p{
         width: 40%; 
+        font-size: 30px;
     }
 
     .queEsLoQuiero h2{
@@ -795,9 +810,7 @@ footer img:hover{
     .hero h1{
         font-size: 65px;
     }
-    .hero p{
-        font-size: 30px;
-    }
+    
     .hero {
         background-image: url("../img/hero-section-media-query.png");
     }
