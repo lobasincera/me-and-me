@@ -1,0 +1,28 @@
+/*----FOOTER------*/
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    a{
+        img{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+        h3{
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 20px;
+        }
+    }
+}

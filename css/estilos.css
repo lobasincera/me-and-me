@@ -1,0 +1,891 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Arvo', serif; }
+
+.queEs {
+  background-color: #38b6ff;
+  display: flex;
+  text-align: center;
+  align-items: center; }
+  .queEs img {
+    width: 50%; }
+  .queEs .queEsLoQuiero h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 20px; }
+  .queEs .queEsLoQuiero p {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 60px; }
+  .queEs .queEsLoQuiero a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #f567be;
+    padding: 5px 10px;
+    transition: 1s; }
+    .queEs .queEsLoQuiero a:hover {
+      color: black; }
+
+.regalo {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .regalo h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center; }
+  .regalo .regaloRegalo {
+    display: flex; }
+    .regalo .regaloRegalo img {
+      width: 50%;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    .regalo .regaloRegalo .regaloFormulario {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .regalo .regaloRegalo .regaloFormulario p {
+        color: white;
+        margin: 20px;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center; }
+      .regalo .regaloRegalo .regaloFormulario form .formularioFormulario {
+        display: flex;
+        flex-direction: column;
+        margin: 20px; }
+        .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label {
+          color: white;
+          text-align: right;
+          font-size: 30px;
+          font-weight: 500;
+          margin: 20px; }
+        .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input {
+          color: white;
+          text-align: center;
+          background-color: #f567be;
+          font-size: 30px;
+          font-weight: 500;
+          margin: 20px;
+          transition: 1s; }
+          .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input:hover {
+            color: black; }
+        .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input {
+          color: white;
+          text-align: center;
+          background-color: #f567be;
+          font-size: 30px;
+          font-weight: 500;
+          margin: 20px;
+          transition: 1s; }
+          .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input:hover {
+            color: black; }
+
+/*----HEADER------*/
+header nav {
+  background-color: #ff66c4; }
+  header nav a {
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    font-weight: 500; }
+
+/*?FIXED*/
+.fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 120px; }
+  .fixed img {
+    width: 100px;
+    height: 100px;
+    transition: 1s; }
+    .fixed img:hover {
+      transform: scale(1.5); }
+
+/*----MAIN------*/
+/*?INDEX*/
+.hero {
+  width: 100%;
+  height: 88vh;
+  background-image: url("../img/foto-hero-section.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .hero h1 {
+    color: #38b6ff;
+    font-family: 'Arvo', serif;
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    -webkit-text-stroke: 1.5px white; }
+  .hero p {
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white; }
+
+/*Que es ME and me? hecha con .queEs y .queEsLoQuiero*/
+.cincoVentajas {
+  background-color: #fdc4096b;
+  display: flex; }
+  .cincoVentajas .cincoVentajasCinco {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+    .cincoVentajas .cincoVentajasCinco h2 {
+      font-size: 40px;
+      font-weight: 500; }
+    .cincoVentajas .cincoVentajasCinco ul {
+      font-size: 30px;
+      font-weight: 500;
+      margin: 60px;
+      list-style: none; }
+  .cincoVentajas img {
+    width: 50%; }
+
+/*Quiero mi Regalo*/
+/*Hecho con .regalo*/
+.testimonios {
+  background-color: #f567be;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+  .testimonios h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50px; }
+  .testimonios .testimoniosVideos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .testimonios .testimoniosVideos p {
+      width: 30%;
+      margin: 20px;
+      font-size: 30px;
+      font-weight: 500;
+      text-align: center; }
+    .testimonios .testimoniosVideos iframe {
+      width: 469px;
+      height: 833px;
+      margin-bottom: 50px;
+      padding: 10px; }
+
+/*?-------MASTERCLASS GRATUITA----*/
+.heroMaster {
+  width: 100%;
+  height: 88vh;
+  background-image: url("../img/crayones.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .heroMaster h1 {
+    color: #38b6ff;
+    font-family: 'Arvo', serif;
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    -webkit-text-stroke: 1.5px white; }
+  .heroMaster p {
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white; }
+
+/*Accede en VIVO*/
+/*Hecho con .regalo*/
+/*accede a una Masterclass Grabada*/
+/*Hecho con .regalo*/
+/*?------FORMACIONES-----*/
+.astronauta {
+  width: 100%;
+  height: 88vh;
+  background-image: url("../img/ninio-astronauta-acostado.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .astronauta h1 {
+    color: #38b6ff;
+    font-family: 'Arvo', serif;
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 40%;
+    -webkit-text-stroke: 1.5px white; }
+  .astronauta p {
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white; }
+
+/*Formacion Gratuita hecha con .queEs y .queEsLoQuiero*/
+.cursosPagos {
+  width: 100%;
+  /*height: 85vh;*/
+  text-align: center;
+  height: auto; }
+  .cursosPagos div h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px; }
+  .cursosPagos div p {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px; }
+  .cursosPagos .cursosPagosModulos {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    .cursosPagos .cursosPagosModulos div {
+      border: 2px solid gray;
+      width: 260px;
+      height: 530px;
+      margin: 30px;
+      transition: 1s; }
+      .cursosPagos .cursosPagosModulos div:hover {
+        transform: scale(1.1); }
+      .cursosPagos .cursosPagosModulos div img {
+        width: 250px;
+        height: 250px; }
+      .cursosPagos .cursosPagosModulos div h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 500; }
+      .cursosPagos .cursosPagosModulos div ul {
+        margin-bottom: 20px;
+        padding: 0;
+        list-style: none; }
+      .cursosPagos .cursosPagosModulos div a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: #f567be;
+        padding: 5px 10px;
+        transition: 1s; }
+        .cursosPagos .cursosPagosModulos div a:hover {
+          color: black; }
+
+/*?-------FUNDAMENTOS EDUCATIVOS----*/
+.lamparita {
+  width: 100%;
+  height: 88vh;
+  background-image: url("../img/mujer-con-lamparita.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .lamparita h1 {
+    color: #38b6ff;
+    font-family: 'Arvo', serif;
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 60%;
+    -webkit-text-stroke: 1.5px white; }
+  .lamparita p {
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px white; }
+
+.fundamentos {
+  width: 100%;
+  /*height: 85vh;*/
+  text-align: center;
+  height: auto;
+  /*background-color: #38b6ff;*/ }
+  .fundamentos h2 {
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 30px; }
+  .fundamentos .gridFundamentos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 340px;
+    gap: 5px; }
+    .fundamentos .gridFundamentos div a img {
+      width: 100%;
+      height: 100%;
+      /*object-fit: cover;*/ }
+    .fundamentos .gridFundamentos .boton {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .fundamentos .gridFundamentos .boton h3 {
+        font-size: 30px;
+        margin-bottom: 15px; }
+      .fundamentos .gridFundamentos .boton a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        background-color: #f567be;
+        padding: 5px 10px;
+        transition: 1s; }
+        .fundamentos .gridFundamentos .boton a:hover {
+          color: black; }
+    .fundamentos .gridFundamentos .grid-item-2 {
+      grid-column: span 2; }
+    .fundamentos .gridFundamentos .grid-item-5 {
+      grid-row: span 2; }
+    .fundamentos .gridFundamentos .grid-item-8 {
+      grid-column: span 2; }
+    .fundamentos .gridFundamentos .grid-item-10 {
+      grid-column: span 2; }
+    .fundamentos .gridFundamentos .grid-item-12 {
+      grid-column: span 2; }
+    .fundamentos .gridFundamentos .grid-item-14 {
+      grid-column: span 2; }
+
+/*?-------CONTACTO------------*/
+.heroContacto {
+  width: 100%;
+  height: 88vh;
+  background-image: url("../img/ninias-telefono.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .heroContacto h1 {
+    color: #38b6ff;
+    font-family: 'Arvo', serif;
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    font-size: 80px;
+    display: inline-block;
+    width: 30%;
+    -webkit-text-stroke: 1.5px white; }
+  .heroContacto p {
+    margin: 20px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px white; }
+
+.quienSoy {
+  background-color: #f567be;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center; }
+  .quienSoy .soy {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+    .quienSoy .soy h2 {
+      font-size: 40px;
+      font-weight: 500;
+      margin-top: 50px; }
+    .quienSoy .soy p {
+      font-size: 25px;
+      font-weight: 500;
+      margin: 20px; }
+  .quienSoy iframe {
+    width: 1008px;
+    height: 567px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 50px;
+    padding: 10px; }
+
+.contacto h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 50px;
+  text-align: center; }
+
+.contacto .mediosContacto {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px; }
+  .contacto .mediosContacto div img {
+    width: 300px;
+    height: 300px;
+    margin: 30px; }
+  .contacto .mediosContacto div h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px; }
+  .contacto .mediosContacto div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f567be;
+    padding: 5px 10px;
+    transition: 1s; }
+    .contacto .mediosContacto div a:hover {
+      color: black; }
+
+/*----FOOTER------*/
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between; }
+  footer a img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: 1s; }
+    footer a img:hover {
+      transform: scale(1.1); }
+  footer .redes {
+    display: flex;
+    align-items: center; }
+    footer .redes h3 {
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      margin: 20px; }
+
+/*?MEDIA QUERY*/
+@media screen and (max-width: 1310px) {
+  /*?FUNDAMENTOS*/
+  .lamparita h1 {
+    font-size: 70px; }
+  /*CONTACTO*/
+  .quienSoy .soy {
+    width: 50%; }
+    .quienSoy .soy p {
+      font-size: 20px; }
+  .quienSoy iframe {
+    width: 650px;
+    height: 430px;
+    padding-top: 150px; } }
+
+@media screen and (max-width: 1260px) {
+  .regalo .regaloRegalo .regaloFormulario p {
+    font-size: 25px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label {
+    font-size: 25px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input {
+    font-size: 25px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input {
+    font-size: 25px; }
+  /*?CONTACTO*/
+  .heroContacto p {
+    width: 40%; } }
+
+@media screen and (max-width: 1100px) {
+  .hero p {
+    width: 40%;
+    font-size: 30px; }
+  .queEs .queEsLoQuiero h2 {
+    font-size: 50px;
+    margin: 15px; }
+  .queEs .queEsLoQuiero p {
+    margin: 40px;
+    font-size: 25px; }
+  .queEs .queEsLoQuiero a {
+    font-size: 25px; }
+  .cincoVentajas .cincoVentajasCinco h2 {
+    font-size: 30px;
+    font-weight: 500; }
+  .cincoVentajas .cincoVentajasCinco ul {
+    font-size: 20px;
+    margin: 40px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label {
+    margin: 10px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input {
+    margin: 10px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input {
+    margin: 10px; }
+  .testimonios .testimoniosVideos p {
+    margin: 10px;
+    font-size: 20px; }
+  /*?MASTERCLASS*/
+  .heroMaster p {
+    width: 40%; }
+  /*?FORMACIONES*/
+  .astronauta p {
+    width: 40%; }
+  /*?FUNDAMENTOS*/
+  .lamparita h1 {
+    margin: 30px 20px 10px 20px; }
+  .lamparita p {
+    margin: 15px;
+    width: 40%;
+    font-size: 35px; }
+  .fundamentos .gridFundamentos {
+    grid-template-columns: repeat(4, 1fr); }
+  .fundamentos .gridFundamentos .grid-item-2 {
+    grid-column: span 1; }
+  .fundamentos .gridFundamentos .grid-item-2 h3 {
+    font-size: 25px; }
+  .fundamentos .gridFundamentos .grid-item-6 {
+    grid-row: span 1; }
+  .fundamentos .gridFundamentos .grid-item-7 {
+    grid-column: span 2;
+    grid-row: span 1; }
+  .fundamentos .gridFundamentos .grid-item-8 {
+    grid-column: span 2; }
+  .fundamentos .gridFundamentos .grid-item-10 {
+    grid-column: span 1; }
+  .fundamentos .gridFundamentos .grid-item-10 h3 {
+    font-size: 25px; }
+  .fundamentos .gridFundamentos .grid-item-11 {
+    grid-column: span 1; }
+  .fundamentos .gridFundamentos .grid-item-13 {
+    grid-column: span 2; }
+  .fundamentos .gridFundamentos .grid-item-14 {
+    grid-column: span 2; } }
+
+@media screen and (max-width: 1010px) {
+  .queEs .queEsLoQuiero h2 {
+    font-size: 40px;
+    margin: 10px; }
+  .queEs .queEsLoQuiero p {
+    margin: 25px;
+    font-size: 20px; }
+  .queEs .queEsLoQuiero a {
+    font-size: 20px; }
+  .regalo .regaloRegalo .regaloFormulario p {
+    font-size: 20px;
+    margin: 15px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label {
+    font-size: 20px;
+    margin: 15px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input {
+    font-size: 20px;
+    margin: 15px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input {
+    font-size: 20px;
+    margin: 15px; }
+  .testimonios .testimoniosVideos iframe {
+    width: 375px;
+    height: 666px; }
+  /*?FORMACIONES*/
+  .cursosPagos div h2 {
+    font-size: 40px; }
+  .cursosPagos div p {
+    font-size: 20px; }
+  /*?CONTACTO*/
+  .heroContacto p {
+    width: 45%; }
+  .quienSoy .soy {
+    width: 50%; }
+    .quienSoy .soy p {
+      font-size: 20px; }
+  .quienSoy iframe {
+    width: 550px;
+    height: 380px;
+    padding-top: 150px; } }
+
+@media screen and (max-width: 870px) {
+  .hero p {
+    width: 45%; }
+  .regalo .regaloRegalo {
+    flex-direction: column;
+    align-items: center; }
+  .testimonios .testimoniosVideos {
+    flex-direction: column; }
+  .testimonios .testimoniosVideos iframe {
+    width: 469px;
+    height: 833px; }
+  .testimonios .testimoniosVideos p {
+    width: 50%;
+    margin: 20px;
+    padding-bottom: 30px; }
+  /*?MASTERCLASS*/
+  .heroMaster p {
+    width: 45%; }
+  /*?FORMACIONES*/
+  .astronauta p {
+    width: 45%; }
+  /*?FUNDAMENTOS*/
+  .fundamentos .gridFundamentos {
+    grid-template-columns: repeat(3, 1fr); }
+  .fundamentos .gridFundamentos .grid-item-5 {
+    grid-row: span 1; }
+  .fundamentos .gridFundamentos .grid-item-6 {
+    grid-row: span 1; }
+  .fundamentos .gridFundamentos .grid-item-8 {
+    grid-column: span 1;
+    grid-row: span 1; }
+  .fundamentos .gridFundamentos .grid-item-12 {
+    grid-column: span 1; }
+  .fundamentos .gridFundamentos .grid-item-13 {
+    grid-column: span 1;
+    grid-row: span 1; }
+  .fundamentos .gridFundamentos .grid-item-14 {
+    grid-column: span 1;
+    grid-row: span 1; }
+  /*?CONTACTO*/
+  .heroContacto h1 {
+    font-size: 65px; }
+  .heroContacto p {
+    font-size: 30px; }
+  .quienSoy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+    .quienSoy .soy {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+      .quienSoy .soy h2 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 50px; }
+      .quienSoy .soy p {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 20px; }
+    .quienSoy iframe {
+      width: 650px;
+      height: 430px;
+      margin: 50px;
+      padding: 10px; }
+  .contacto h2 {
+    font-size: 30px;
+    text-align: center; }
+  .contacto .mediosContacto div img {
+    width: 250px;
+    height: 250px;
+    margin: 25px; }
+  .contacto .mediosContacto div h3 {
+    font-size: 24px;
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 770px) {
+  /*?INDEX*/
+  .hero h1 {
+    font-size: 65px; }
+  .hero {
+    background-image: url("../img/hero-section-media-query.png"); }
+  .queEs {
+    flex-direction: column;
+    height: 1000px; }
+  .queEs .queEsLoQuiero p {
+    margin: 40px; }
+  .queEs .queEsLoQuiero a {
+    margin-bottom: 20px; }
+  .queEs img {
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+  .cincoVentajas {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; }
+  .cincoVentajas img {
+    width: 80%; }
+  /*?MASTERCLASS*/
+  .heroMaster h1 {
+    font-size: 65px; }
+  .heroMaster p {
+    font-size: 30px; }
+  /*?FORMACIONES*/
+  .astronauta h1 {
+    font-size: 65px; }
+  .astronauta p {
+    font-size: 30px; }
+  /*?FUNDAMENTOS*/
+  .lamparita h1 {
+    font-size: 65px; }
+  .lamparita p {
+    font-size: 30px; }
+  .fundamentos h2 {
+    font-size: 50px; }
+  .fundamentos .gridFundamentos {
+    grid-template-columns: repeat(2, 1fr); }
+  .fundamentos .gridFundamentos .grid-item-7 {
+    grid-column: span 1; }
+  /*?CONTACTO*/
+  .heroContacto {
+    background-image: url("../img/ninia-telefono.jpg"); } }
+
+@media screen and (max-width: 690px) {
+  /*?FUNDAMENTOS*/
+  .lamparita h1 {
+    width: 70%; }
+  /*CONTACTO*/
+  .quienSoy .soy h2 {
+    font-size: 30px; }
+  .quienSoy .soy p {
+    font-size: 20px; }
+  .quienSoy iframe {
+    width: 550px;
+    height: 350px;
+    margin: 50px;
+    padding: 10px; } }
+
+@media screen and (max-width: 660px) {
+  .fixed {
+    right: 30px;
+    bottom: 60px; }
+  .fixed img {
+    width: 80px;
+    height: 80px; }
+  .hero p {
+    width: 55%; }
+  .cincoVentajas .cincoVentajasCinco ul {
+    margin: 20px; }
+  .regalo h2 {
+    font-size: 40px;
+    margin-top: 30px; }
+  .testimonios h2 {
+    font-size: 40px;
+    margin-top: 30px; }
+  /*?MASTERCLASS*/
+  .heroMaster p {
+    width: 55%; }
+  /*CONTACTO*/
+  .contacto .mediosContacto {
+    flex-direction: column;
+    align-items: center; }
+  .contacto .mediosContacto div img {
+    margin-top: 50px; }
+  footer a img {
+    width: 70px;
+    height: 70px;
+    margin: 7px; }
+  footer .redes h3 {
+    font-size: 15px;
+    margin: 5px; } }
+
+@media screen and (max-width: 600px) {
+  /*?FUNDAMENTOS*/
+  .lamparita h1 {
+    font-size: 60px;
+    margin: 30px 10px 10px 10px; }
+  .lamparita p {
+    width: 55%; }
+  .fundamentos {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px; }
+  .fundamentos h2 {
+    font-size: 40px; }
+  .fundamentos .gridFundamentos {
+    grid-template-columns: repeat(1, 1fr); }
+  /*CONTACTO*/
+  .heroContacto p {
+    width: 60%; }
+  .quienSoy .soy h2 {
+    font-size: 30px; }
+  .quienSoy .soy p {
+    font-size: 18px; }
+  .quienSoy iframe {
+    width: 450px;
+    height: 270px;
+    margin: 20px;
+    padding: 10px; } }
+
+@media screen and (max-width: 500px) {
+  /*?INDEX*/
+  .hero h1 {
+    font-size: 60px;
+    margin: 30px 10px 10px 10px; }
+  .testimonios .testimoniosVideos iframe {
+    width: 375px;
+    height: 666px; }
+  .testimonios .testimoniosVideos p {
+    width: 70%; }
+  /*?MASTERCLASS*/
+  .heroMaster h1 {
+    font-size: 60px;
+    margin: 30px 10px 10px 10px; } }
+
+@media screen and (max-width: 440px) {
+  /*?INDEX*/
+  .hero h1 {
+    font-size: 50px;
+    width: 40%; }
+  .hero p {
+    font-size: 25px; }
+  .cincoVentajas .cincoVentajasCinco ul {
+    margin: 10px; }
+  .regalo h2 {
+    font-size: 30px;
+    margin-top: 30px; }
+  .regalo .regaloRegalo .regaloFormulario p {
+    font-size: 15px;
+    margin: 15px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label {
+    font-size: 15px;
+    margin: 12px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input {
+    font-size: 15px;
+    margin: 12px; }
+  .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input {
+    font-size: 15px;
+    margin: 12px; }
+  .testimonios .testimoniosVideos iframe {
+    width: 338px;
+    height: 600px; }
+  /*?MASTERCLASS*/
+  .heroMaster h1 {
+    font-size: 50px;
+    width: 40%; }
+  .heroMaster p {
+    font-size: 25px; }
+  /*?FUNDAMENTOS*/
+  .lamparita h1 {
+    font-size: 50px; }
+  .lamparita p {
+    width: 75%; }
+  .fundamentos {
+    margin-left: 40px;
+    margin-right: 40px; }
+  .fundamentos h2 {
+    font-size: 30px;
+    text-align: center; }
+  .fundamentos .gridFundamentos {
+    grid-auto-rows: 300px; }
+  .fundamentos .gridFundamentos .boton h3 {
+    font-size: 25px; }
+  /*CONTACTO*/
+  .heroContacto h1 {
+    font-size: 50px; }
+  .heroContacto p {
+    width: 75%; }
+  .quienSoy .soy h2 {
+    font-size: 25px;
+    margin-top: 30px; }
+  .quienSoy .soy p {
+    font-size: 18px;
+    margin: 15px; }
+  .quienSoy iframe {
+    width: 360px;
+    height: 190px;
+    margin: 20px;
+    padding: 10px; }
+  footer a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px; } }

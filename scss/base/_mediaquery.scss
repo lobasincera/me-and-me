@@ -1,0 +1,616 @@
+/*?MEDIA QUERY*/
+
+@media screen and (max-width:1310px){
+    /*?FUNDAMENTOS*/
+        .lamparita h1{
+        font-size: 70px;
+    }
+    /*CONTACTO*/
+    .quienSoy .soy{
+        width: 50%;
+        p{
+            font-size: 20px;
+        }
+    }
+    .quienSoy  iframe{
+        width: 650px;
+        height: 430px;
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width:1260px){
+    .regalo .regaloRegalo .regaloFormulario p{
+        font-size: 25px;
+    }
+        
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label{
+        font-size: 25px;
+    }
+    
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario  div input{
+        font-size: 25px;
+    }
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input{
+        font-size: 25px;
+    }
+    /*?CONTACTO*/
+    .heroContacto p{
+        width: 40%;
+    }
+}
+@media screen and (max-width:1100px){
+    .hero p{
+        width: 40%; 
+        font-size: 30px;
+    }
+
+    .queEs .queEsLoQuiero h2{
+        font-size: 50px;
+        margin: 15px;
+    }
+    
+    .queEs .queEsLoQuiero p{
+        margin: 40px;
+        font-size: 25px;
+    }
+    .queEs .queEsLoQuiero a{
+        font-size: 25px;
+    }
+
+    .cincoVentajas .cincoVentajasCinco h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .cincoVentajas .cincoVentajasCinco ul{
+        font-size: 20px;
+        margin: 40px;
+    }
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label{
+        margin: 10px;
+    }
+    
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input{
+        margin: 10px;
+    }
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input{
+        margin: 10px;
+    }
+    .testimonios .testimoniosVideos p{
+        margin: 10px;
+        font-size: 20px;
+    }
+    /*?MASTERCLASS*/
+    .heroMaster p{
+        width: 40%;
+    }
+    /*?FORMACIONES*/
+    .astronauta p{
+        width: 40%;
+    }
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        margin: 30px 20px 10px 20px;
+    }
+    
+    .lamparita p{
+        margin: 15px;
+        width: 40%;
+        font-size: 35px;
+        
+    }
+    .fundamentos .gridFundamentos {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .fundamentos .gridFundamentos .grid-item-2{
+        grid-column: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-2 h3{
+        font-size: 25px; 
+    }
+    .fundamentos .gridFundamentos .grid-item-6{
+        grid-row: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-7{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-8{
+        grid-column: span 2;
+    }
+    .fundamentos .gridFundamentos .grid-item-10{
+        grid-column: span 1;
+        
+    }
+    .fundamentos .gridFundamentos .grid-item-10 h3{
+        font-size: 25px;        
+    }
+    .fundamentos .gridFundamentos .grid-item-11{
+        grid-column: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-13{
+        grid-column: span 2;
+        
+    }
+    .fundamentos .gridFundamentos .grid-item-14{
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:1010px){
+    
+    .queEs .queEsLoQuiero h2{
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    .queEs .queEsLoQuiero p{
+        margin: 25px;
+        font-size: 20px;
+    }
+    .queEs .queEsLoQuiero a{
+        font-size: 20px;
+    }
+    .regalo .regaloRegalo .regaloFormulario p{
+        font-size: 20px;
+        margin: 15px;
+    }
+        
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label{
+        font-size: 20px;
+        margin: 15px;
+    }
+    
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input{
+        font-size: 20px;
+        margin: 15px;
+    }
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input{
+        font-size: 20px;
+        margin: 15px;
+    }
+    .testimonios .testimoniosVideos iframe{
+        width: 375px;
+        height: 666px;
+    }
+    /*?FORMACIONES*/
+    .cursosPagos div h2 {
+        font-size: 40px;
+    }
+    .cursosPagos div p {
+        font-size: 20px;
+    }
+    /*?CONTACTO*/
+    .heroContacto p{
+        width: 45%;
+    }
+    .quienSoy .soy{
+        width: 50%;
+        p{
+            font-size: 20px;
+        }
+    }
+    .quienSoy  iframe{
+        width: 550px;
+        height: 380px;
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width:870px){
+    .hero p{
+        width: 45%; 
+    }
+    .regalo .regaloRegalo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonios .testimoniosVideos{
+        flex-direction: column;
+    }
+    .testimonios .testimoniosVideos iframe{
+        width: 469px;
+        height: 833px;
+    }
+    .testimonios .testimoniosVideos p{
+        width: 50%;
+        margin: 20px;
+        padding-bottom: 30px;
+        
+    }
+    /*?MASTERCLASS*/
+    .heroMaster p{
+        width: 45%;
+    }
+    /*?FORMACIONES*/
+    .astronauta p{
+        width: 45%;
+    }
+    /*?FUNDAMENTOS*/
+    .fundamentos .gridFundamentos {
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .fundamentos .gridFundamentos .grid-item-5{
+        grid-row: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-6{
+        grid-row: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-8{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-12{
+        grid-column: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-13{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .fundamentos .gridFundamentos .grid-item-14{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    /*?CONTACTO*/
+    .heroContacto h1{
+        font-size: 65px;
+    }
+    .heroContacto p{
+        font-size: 30px;
+    }
+    .quienSoy{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
+        .soy{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+                        
+            h2{
+                font-size: 40px;
+                font-weight: 500;
+                margin-top: 50px;
+            }
+            p{
+                font-size: 25px;
+                font-weight: 500;
+                margin: 20px;
+            }
+        }
+        iframe{
+            width: 650px;
+            height: 430px;
+            margin: 50px;
+            padding: 10px;
+        }
+    }
+    .contacto {
+        h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        .mediosContacto{
+            div{
+                img{
+                    width: 250px;
+                    height: 250px;
+                    margin: 25px;
+                }
+                h3{
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:770px){
+    /*?INDEX*/
+    .hero h1{
+        font-size: 65px;
+    }
+    
+    .hero {
+        background-image: url("../img/hero-section-media-query.png");
+    }
+    .queEs {
+        flex-direction: column;
+        height: 1000px;
+    }
+    .queEs .queEsLoQuiero p{
+        margin: 40px;
+    }
+    .queEs .queEsLoQuiero a{
+        margin-bottom: 20px;
+    }
+    .queEs img{
+        width: 80%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .cincoVentajas{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .cincoVentajas img{
+        width: 80%;
+    }   
+    /*?MASTERCLASS*/
+    .heroMaster h1{
+        font-size: 65px;
+    }
+    .heroMaster p{
+        font-size: 30px;
+    }
+    /*?FORMACIONES*/
+    .astronauta h1{
+        font-size: 65px;
+    }
+    .astronauta p{
+        font-size: 30px;
+    }
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        font-size: 65px;
+    }
+    
+    .lamparita p{
+        font-size: 30px;
+    }
+    .fundamentos h2{
+        font-size: 50px;
+    }
+    .fundamentos .gridFundamentos {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fundamentos .gridFundamentos .grid-item-7{
+        grid-column: span 1;
+    }
+    /*?CONTACTO*/
+    .heroContacto{
+        background-image: url("../img/ninia-telefono.jpg");
+    }
+}
+
+@media screen and (max-width:690px){
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        width: 70%;
+    }
+    /*CONTACTO*/
+    .quienSoy{
+        .soy{
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        iframe{
+            width: 550px;
+            height: 350px;
+            margin: 50px;
+            padding: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:660px){
+    
+    .fixed{
+        right: 30px;
+        bottom: 60px;
+    }
+        
+    .fixed img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .hero p{
+        width: 55%; 
+    }
+    .cincoVentajas .cincoVentajasCinco ul{
+        margin: 20px;
+    }
+    .regalo h2{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .testimonios h2{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    /*?MASTERCLASS*/
+    .heroMaster p{
+        width: 55%; 
+    }
+    /*CONTACTO*/
+    .contacto .mediosContacto {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacto .mediosContacto div img{
+        margin-top: 50px;
+    }
+    footer a img{
+        width: 70px;
+        height: 70px;
+        margin: 7px;
+    }
+    footer .redes h3{
+        font-size: 15px;
+        margin: 5px;
+    }
+}
+@media screen and (max-width:600px){
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        font-size: 60px;
+        margin: 30px 10px 10px 10px;
+    }
+    .lamparita p{
+        width: 55%;
+    }
+    .fundamentos{
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .fundamentos h2{
+        font-size: 40px;
+    }
+    
+    .fundamentos .gridFundamentos {
+        grid-template-columns: repeat(1,1fr);
+    }
+    /*CONTACTO*/
+    .heroContacto p{
+        width: 60%;
+    }
+    .quienSoy{
+        .soy{
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        iframe{
+            width: 450px;
+            height: 270px;
+            margin: 20px;
+            padding: 10px;
+        }
+    }
+}
+@media screen and (max-width:500px){
+    /*?INDEX*/
+    .hero h1{
+        font-size: 60px;
+        margin: 30px 10px 10px 10px;
+    }
+    .testimonios .testimoniosVideos iframe{
+        width: 375px;
+        height: 666px;
+    }
+    .testimonios .testimoniosVideos p{
+        width: 70%;
+    }
+
+    /*?MASTERCLASS*/
+    .heroMaster h1{
+        font-size: 60px;
+        margin: 30px 10px 10px 10px;
+    }
+}
+@media screen and (max-width:440px){
+    
+    /*?INDEX*/
+    .hero h1{
+        font-size: 50px;
+        width: 40%;
+    }
+    .hero p{
+        font-size: 25px;
+    }
+    .cincoVentajas .cincoVentajasCinco ul{
+        margin: 10px;
+    }
+    .regalo h2{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .regalo .regaloRegalo .regaloFormulario p{
+        font-size: 15px;
+        margin: 15px;
+    }
+        
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label{
+        font-size: 15px;
+        margin: 12px;
+    }
+    
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input{
+        font-size: 15px;
+        margin: 12px;
+    }
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input{
+        font-size: 15px;
+        margin: 12px;
+    }
+    .testimonios .testimoniosVideos iframe{
+        width: 338px;
+        height: 600px;
+    }
+
+    /*?MASTERCLASS*/
+    .heroMaster h1{
+        font-size: 50px;
+        width: 40%;
+    }
+    .heroMaster p{
+        font-size: 25px;
+    }
+    /*?FUNDAMENTOS*/
+    .lamparita h1{
+        font-size: 50px;
+        
+    }
+    .lamparita p{
+        width: 75%;
+    }
+    .fundamentos{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .fundamentos h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .fundamentos .gridFundamentos {
+        grid-auto-rows: 300px;
+    }   
+    .fundamentos .gridFundamentos .boton h3{
+        font-size: 25px;
+    }
+    /*CONTACTO*/
+    .heroContacto h1{
+        font-size: 50px;
+    }
+    .heroContacto p{
+        width: 75%;
+    }
+    .quienSoy{
+        .soy{
+            h2{
+                font-size: 25px;
+                margin-top: 30px;
+            }
+            p{
+                font-size: 18px;
+                margin: 15px;
+            }
+        }
+        iframe{
+            width: 360px;
+            height: 190px;
+            margin: 20px;
+            padding: 10px;
+        }
+    }
+    footer a img{
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+}

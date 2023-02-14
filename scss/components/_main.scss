@@ -1,0 +1,431 @@
+/*?FIXED*/
+
+.fixed{
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+
+    img{
+        width: 100px;
+        height: 100px;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+}
+
+/*----MAIN------*/
+/*?INDEX*/
+
+.hero{
+    width: 100%;
+    height: 88vh;
+    background-image: url("../img/foto-hero-section.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    h1{
+        color: #38b6ff;
+        font-family: 'Arvo', serif;
+        margin: 50px 20px 20px 20px;
+        padding: 10px;
+        font-size: 80px;
+        display: inline-block;
+        width: 30%;
+        -webkit-text-stroke: 1.5px white;
+    }
+    p{
+        margin: 20px;
+        width: 30%;
+        font-size: 40px;
+        font-weight: 600;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+/*Que es ME and me? hecha con .queEs y .queEsLoQuiero*/
+
+.cincoVentajas{
+    background-color: #fdc4096b;
+    display: flex;
+    .cincoVentajasCinco{
+    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    
+        h2{
+            font-size: 40px;
+            font-weight: 500;
+        }
+        ul{
+            font-size: 30px;
+            font-weight: 500;
+            margin: 60px;
+            list-style: none;
+        }
+    }
+    img{
+        width: 50%;
+    }
+}
+/*Quiero mi Regalo*/
+/*Hecho con .regalo*/
+
+
+.testimonios{
+    background-color: #f567be;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-size: 60px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .testimoniosVideos{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        p{
+            width: 30%;
+            margin: 20px;
+            font-size: 30px;
+            font-weight: 500;
+            text-align: center;
+        }
+        iframe{
+            width: 469px;
+            height: 833px;
+            margin-bottom: 50px;
+            padding: 10px;
+        }
+    }
+}
+/*?-------MASTERCLASS GRATUITA----*/
+.heroMaster{
+    width: 100%;
+    height: 88vh;
+    background-image: url("../img/crayones.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1{
+        color: #38b6ff;
+        font-family: 'Arvo', serif;margin: 50px 20px 20px 20px;
+        padding: 10px;
+        font-size: 80px;
+        display: inline-block;
+        width: 30%;
+        -webkit-text-stroke: 1.5px white;
+    }
+    p{
+        margin: 20px;
+        width: 30%;
+        font-size: 40px;
+        font-weight: 600;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+
+/*Accede en VIVO*/
+/*Hecho con .regalo*/
+
+/*accede a una Masterclass Grabada*/
+/*Hecho con .regalo*/
+
+
+/*?------FORMACIONES-----*/
+.astronauta {
+    width: 100%;
+    height: 88vh;
+    
+    background-image: url("../img/ninio-astronauta-acostado.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1{
+        color: #38b6ff;
+        font-family: 'Arvo', serif;margin: 50px 20px 20px 20px;
+        padding: 10px;
+        font-size: 80px;
+        display: inline-block;
+        width: 40%;
+        -webkit-text-stroke: 1.5px white;
+    }
+    p{
+        margin: 20px;
+        width: 30%;
+        font-size: 40px;
+        font-weight: 600;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+/*Formacion Gratuita hecha con .queEs y .queEsLoQuiero*/
+.cursosPagos{
+    width: 100%;
+    /*height: 85vh;*/
+    text-align: center;
+    height: auto;
+    div{
+        h2{
+        font-size: 60px;
+        font-weight: 500;
+        margin-top: 20px;
+        }
+        p{
+        font-size: 30px;
+        font-weight: 500;
+        margin: 30px;
+        }
+    }
+    .cursosPagosModulos{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        div{
+            border: 2px solid gray;
+            width: 260px;
+            height: 530px;
+            margin: 30px;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+            img{
+            width: 250px;
+            height: 250px;
+            }
+            h3{
+                margin-bottom: 20px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            ul{
+                margin-bottom: 20px;
+                padding: 0;
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+                background-color: #f567be;
+                padding: 5px 10px;
+                transition: 1s;
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+/*?-------FUNDAMENTOS EDUCATIVOS----*/
+.lamparita{
+    width: 100%;
+    height: 88vh;
+    background-image: url("../img/mujer-con-lamparita.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1{
+        color: #38b6ff;
+        font-family: 'Arvo', serif;
+        margin: 50px 20px 20px 20px;
+        padding: 10px;
+        font-size: 80px;
+        display: inline-block;
+        width: 60%;
+        -webkit-text-stroke: 1.5px white;
+    }
+    p{
+        margin: 20px;
+        width: 30%;
+        font-size: 40px;
+        font-weight: 600;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+.fundamentos{
+    width: 100%;
+    /*height: 85vh;*/
+    text-align: center;
+    height: auto;
+    /*background-color: #38b6ff;*/
+    h2{
+        font-size: 60px;
+        font-weight: 500;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .gridFundamentos {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-auto-rows: 340px;
+        gap: 5px;
+        div{
+            a{
+                img{
+                    width: 100%;
+                    height: 100%;
+                    /*object-fit: cover;*/
+                }
+            }
+        }
+        .boton{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3{
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 30px;
+                font-weight: 500;
+                background-color: #f567be;
+                padding: 5px 10px;
+                transition: 1s;
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+        .grid-item-2{
+            grid-column: span 2;
+        }
+        .grid-item-5{
+            grid-row: span 2;
+        }
+        .grid-item-8{
+            grid-column: span 2;
+        }
+        .grid-item-10{
+            grid-column: span 2;
+        }
+        .grid-item-12{
+            grid-column: span 2;
+        
+        }
+        .grid-item-14{
+            grid-column: span 2;
+        }
+    }
+}
+/*?-------CONTACTO------------*/
+.heroContacto{
+
+    width: 100%;
+    height: 88vh;
+    
+    background-image: url("../img/ninias-telefono.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1{
+        color: #38b6ff;
+        font-family: 'Arvo', serif;
+        margin: 50px 20px 20px 20px;
+        padding: 10px;
+        font-size: 80px;
+        display: inline-block;
+        width: 30%;
+        -webkit-text-stroke: 1.5px white;
+    }
+    p{
+        margin: 20px;
+        width: 30%;
+        font-size: 40px;
+        font-weight: 600;
+        -webkit-text-stroke: 1px white;
+    }
+}
+.quienSoy{
+    background-color: #f567be;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    .soy{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        h2{
+            font-size: 40px;
+            font-weight: 500;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 25px;
+            font-weight: 500;
+            margin: 20px;
+        }
+    }
+    iframe{
+        width: 1008px;
+        height: 567px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 50px;
+        padding: 10px;
+    }
+}
+.contacto {
+    h2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .mediosContacto{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        div{
+            img{
+                width: 300px;
+                height: 300px;
+                margin: 30px;
+            }
+            h3{
+                font-size: 30px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+                background-color: #f567be;
+                padding: 5px 10px;
+                transition: 1s;
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+
+

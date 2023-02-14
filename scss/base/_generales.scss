@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arvo', serif;
+}
+
+.queEs{
+    background-color: #38b6ff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    img{
+        width: 50%;
+    }
+    .queEsLoQuiero{
+        h2{
+            font-size: 60px;
+            font-weight: 500;
+            margin: 20px; 
+        }
+        p{
+            font-size: 30px;
+            font-weight: 500;
+            margin: 60px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            font-weight: 500;
+            background-color: #f567be;
+            padding: 5px 10px;
+            transition: 1s;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+
+.regalo{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    h2{
+        color: white;
+        font-size: 60px;
+        font-weight: 500;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .regaloRegalo{
+        display: flex;
+        img{
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .regaloFormulario{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                color: white;
+                margin: 20px;
+                font-size: 30px;
+                font-weight: 500;
+                text-align: center;
+            }
+            form{
+                .formularioFormulario{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 20px;
+                    div{
+                        label{
+                            color: white;
+                            text-align: right;
+                            font-size: 30px;
+                            font-weight: 500;
+                            margin: 20px;
+                        }
+                        input{
+                            color: white;
+                            text-align: center;
+                            background-color: #f567be;
+                            font-size: 30px;
+                            font-weight: 500;
+                            margin: 20px;
+                            transition: 1s;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                    input{
+                        color: white;
+                        text-align: center;
+                        background-color: #f567be;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 20px;
+                        transition: 1s;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
