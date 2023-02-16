@@ -8,7 +8,6 @@ body {
   font-family: 'Arvo', serif; }
 
 .queEs {
-  background-color: #38b6ff;
   display: flex;
   text-align: center;
   align-items: center; }
@@ -24,22 +23,16 @@ body {
     margin: 60px; }
   .queEs .queEsLoQuiero a {
     text-decoration: none;
-    color: white;
     font-size: 30px;
     font-weight: 500;
-    background-color: #f567be;
     padding: 5px 10px;
     transition: 1s; }
-    .queEs .queEsLoQuiero a:hover {
-      color: black; }
 
 .regalo {
-  background-color: black;
   width: 100%;
   display: flex;
   flex-direction: column; }
   .regalo h2 {
-    color: white;
     font-size: 60px;
     font-weight: 500;
     margin-top: 50px;
@@ -50,55 +43,165 @@ body {
       width: 50%;
       margin-top: 50px;
       margin-bottom: 50px; }
-    .regalo .regaloRegalo .regaloFormulario {
+    .regalo .regaloRegalo .regaloFormulario p {
+      margin: 20px;
+      font-size: 30px;
+      font-weight: 500;
+      text-align: center; }
+    .regalo .regaloRegalo .regaloFormulario form .formularioFormulario {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-      .regalo .regaloRegalo .regaloFormulario p {
-        color: white;
-        margin: 20px;
+      margin: 20px; }
+      .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label {
+        text-align: right;
         font-size: 30px;
         font-weight: 500;
-        text-align: center; }
-      .regalo .regaloRegalo .regaloFormulario form .formularioFormulario {
-        display: flex;
-        flex-direction: column;
         margin: 20px; }
-        .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div label {
-          color: white;
-          text-align: right;
-          font-size: 30px;
-          font-weight: 500;
-          margin: 20px; }
-        .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input {
-          color: white;
-          text-align: center;
-          background-color: #f567be;
-          font-size: 30px;
-          font-weight: 500;
-          margin: 20px;
-          transition: 1s; }
-          .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input:hover {
-            color: black; }
-        .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input {
-          color: white;
-          text-align: center;
-          background-color: #f567be;
-          font-size: 30px;
-          font-weight: 500;
-          margin: 20px;
-          transition: 1s; }
-          .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input:hover {
-            color: black; }
+      .regalo .regaloRegalo .regaloFormulario form .formularioFormulario div input {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 20px;
+        transition: 1s; }
+      .regalo .regaloRegalo .regaloFormulario form .formularioFormulario input {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 20px;
+        transition: 1s; }
+
+.hero, .heroMaster, .astronauta, .lamparita, .heroContacto {
+  width: 100%;
+  height: 88vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.regalo .regaloRegalo .regaloFormulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.cincoVentajas .cincoVentajasCinco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.testimonios {
+  display: flex;
+  flex-direction: column; }
+  .testimonios .testimoniosVideos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+
+.cursosPagos .cursosPagosModulos {
+  display: flex;
+  justify-content: space-evenly; }
+
+.fundamentos .gridFundamentos .boton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.quienSoy {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .quienSoy .soy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+.contacto .mediosContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+header nav {
+  background-color: #f567be; }
+
+.queEs {
+  background-color: #38b6ff; }
+  .queEs .queEsLoQuiero a {
+    color: white;
+    background-color: #f567be; }
+    .queEs .queEsLoQuiero a:hover {
+      color: black; }
+
+.regalo {
+  background-color: black; }
+  .regalo h2 {
+    color: white; }
+  .regalo .regaloRegalo .regaloFormulario p {
+    color: white; }
+  .regalo .regaloRegalo .regaloFormulario form div label {
+    color: white; }
+  .regalo .regaloRegalo .regaloFormulario form div input {
+    color: white;
+    background-color: #f567be; }
+    .regalo .regaloRegalo .regaloFormulario form div input:hover {
+      color: black; }
+  .regalo .regaloRegalo .regaloFormulario form input {
+    color: white;
+    background-color: #f567be; }
+    .regalo .regaloRegalo .regaloFormulario form input:hover {
+      color: black; }
+
+.cincoVentajas {
+  background-color: #fdc4096b; }
+
+.testimonios {
+  background-color: #f567be; }
+
+.cursosPagosModulos div a {
+  color: white;
+  background-color: #f567be; }
+  .cursosPagosModulos div a:hover {
+    color: black; }
+
+.fundamentos .gridFundamentos .boton a {
+  color: white;
+  background-color: #f567be; }
+  .fundamentos .gridFundamentos .boton a:hover {
+    color: black; }
+
+.quienSoy {
+  background-color: #f567be; }
+
+.contacto .mediosContacto div a {
+  color: white;
+  background-color: #f567be; }
+  .contacto .mediosContacto div a:hover {
+    color: black; }
+
+footer {
+  background-color: black; }
+  footer .redes h3 {
+    color: white; }
+
+.hero h1 {
+  color: #38b6ff; }
+
+.heroMaster h1 {
+  color: #38b6ff; }
+
+.astronauta h1 {
+  color: #38b6ff; }
+
+.lamparita h1 {
+  color: #38b6ff; }
+
+.heroContacto h1 {
+  color: #38b6ff; }
 
 /*----HEADER------*/
-header nav {
-  background-color: #ff66c4; }
-  header nav a {
-    font-family: 'Arvo', serif;
-    font-size: 20px;
-    font-weight: 500; }
+header nav a {
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  font-weight: 500; }
 
 /*?FIXED*/
 .fixed {
@@ -115,15 +218,8 @@ header nav {
 /*----MAIN------*/
 /*?INDEX*/
 .hero {
-  width: 100%;
-  height: 88vh;
-  background-image: url("../img/foto-hero-section.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-image: url("../img/foto-hero-section.png"); }
   .hero h1 {
-    color: #38b6ff;
     font-family: 'Arvo', serif;
     margin: 50px 20px 20px 20px;
     padding: 10px;
@@ -140,13 +236,9 @@ header nav {
 
 /*Que es ME and me? hecha con .queEs y .queEsLoQuiero*/
 .cincoVentajas {
-  background-color: #fdc4096b;
   display: flex; }
   .cincoVentajas .cincoVentajasCinco {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center; }
+    text-align: center; }
     .cincoVentajas .cincoVentajasCinco h2 {
       font-size: 40px;
       font-weight: 500; }
@@ -161,19 +253,13 @@ header nav {
 /*Quiero mi Regalo*/
 /*Hecho con .regalo*/
 .testimonios {
-  background-color: #f567be;
-  text-align: center;
-  display: flex;
-  flex-direction: column; }
+  text-align: center; }
   .testimonios h2 {
     font-size: 60px;
     font-weight: 500;
     margin-top: 50px; }
   .testimonios .testimoniosVideos {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; }
+    width: 100%; }
     .testimonios .testimoniosVideos p {
       width: 30%;
       margin: 20px;
@@ -188,15 +274,8 @@ header nav {
 
 /*?-------MASTERCLASS GRATUITA----*/
 .heroMaster {
-  width: 100%;
-  height: 88vh;
-  background-image: url("../img/crayones.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-image: url("../img/crayones.jpg"); }
   .heroMaster h1 {
-    color: #38b6ff;
     font-family: 'Arvo', serif;
     margin: 50px 20px 20px 20px;
     padding: 10px;
@@ -217,15 +296,8 @@ header nav {
 /*Hecho con .regalo*/
 /*?------FORMACIONES-----*/
 .astronauta {
-  width: 100%;
-  height: 88vh;
-  background-image: url("../img/ninio-astronauta-acostado.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-image: url("../img/ninio-astronauta-acostado.jpg"); }
   .astronauta h1 {
-    color: #38b6ff;
     font-family: 'Arvo', serif;
     margin: 50px 20px 20px 20px;
     padding: 10px;
@@ -243,7 +315,6 @@ header nav {
 /*Formacion Gratuita hecha con .queEs y .queEsLoQuiero*/
 .cursosPagos {
   width: 100%;
-  /*height: 85vh;*/
   text-align: center;
   height: auto; }
   .cursosPagos div h2 {
@@ -255,10 +326,8 @@ header nav {
     font-weight: 500;
     margin: 30px; }
   .cursosPagos .cursosPagosModulos {
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    text-align: center; }
     .cursosPagos .cursosPagosModulos div {
       border: 2px solid gray;
       width: 260px;
@@ -280,26 +349,15 @@ header nav {
         list-style: none; }
       .cursosPagos .cursosPagosModulos div a {
         text-decoration: none;
-        color: white;
         font-size: 20px;
         font-weight: 500;
-        background-color: #f567be;
         padding: 5px 10px;
         transition: 1s; }
-        .cursosPagos .cursosPagosModulos div a:hover {
-          color: black; }
 
 /*?-------FUNDAMENTOS EDUCATIVOS----*/
 .lamparita {
-  width: 100%;
-  height: 88vh;
-  background-image: url("../img/mujer-con-lamparita.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-image: url("../img/mujer-con-lamparita.jpg"); }
   .lamparita h1 {
-    color: #38b6ff;
     font-family: 'Arvo', serif;
     margin: 50px 20px 20px 20px;
     padding: 10px;
@@ -316,10 +374,8 @@ header nav {
 
 .fundamentos {
   width: 100%;
-  /*height: 85vh;*/
   text-align: center;
-  height: auto;
-  /*background-color: #38b6ff;*/ }
+  height: auto; }
   .fundamentos h2 {
     font-size: 60px;
     font-weight: 500;
@@ -332,25 +388,16 @@ header nav {
     gap: 5px; }
     .fundamentos .gridFundamentos div a img {
       width: 100%;
-      height: 100%;
-      /*object-fit: cover;*/ }
-    .fundamentos .gridFundamentos .boton {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-      .fundamentos .gridFundamentos .boton h3 {
-        font-size: 30px;
-        margin-bottom: 15px; }
-      .fundamentos .gridFundamentos .boton a {
-        text-decoration: none;
-        color: white;
-        font-size: 30px;
-        font-weight: 500;
-        background-color: #f567be;
-        padding: 5px 10px;
-        transition: 1s; }
-        .fundamentos .gridFundamentos .boton a:hover {
-          color: black; }
+      height: 100%; }
+    .fundamentos .gridFundamentos .boton h3 {
+      font-size: 30px;
+      margin-bottom: 15px; }
+    .fundamentos .gridFundamentos .boton a {
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 500;
+      padding: 5px 10px;
+      transition: 1s; }
     .fundamentos .gridFundamentos .grid-item-2 {
       grid-column: span 2; }
     .fundamentos .gridFundamentos .grid-item-5 {
@@ -366,15 +413,8 @@ header nav {
 
 /*?-------CONTACTO------------*/
 .heroContacto {
-  width: 100%;
-  height: 88vh;
-  background-image: url("../img/ninias-telefono.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-image: url("../img/ninias-telefono.jpg"); }
   .heroContacto h1 {
-    color: #38b6ff;
     font-family: 'Arvo', serif;
     margin: 50px 20px 20px 20px;
     padding: 10px;
@@ -390,17 +430,10 @@ header nav {
     -webkit-text-stroke: 1px white; }
 
 .quienSoy {
-  background-color: #f567be;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  align-items: center; }
+  text-align: center; }
   .quienSoy .soy {
     width: 40%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center; }
+    text-align: center; }
     .quienSoy .soy h2 {
       font-size: 40px;
       font-weight: 500;
@@ -425,10 +458,7 @@ header nav {
   text-align: center; }
 
 .contacto .mediosContacto {
-  display: flex;
   text-align: center;
-  flex-direction: row;
-  justify-content: space-evenly;
   margin-bottom: 50px; }
   .contacto .mediosContacto div img {
     width: 300px;
@@ -440,18 +470,13 @@ header nav {
     margin-bottom: 20px; }
   .contacto .mediosContacto div a {
     text-decoration: none;
-    color: white;
     font-size: 20px;
     font-weight: 500;
-    background-color: #f567be;
     padding: 5px 10px;
     transition: 1s; }
-    .contacto .mediosContacto div a:hover {
-      color: black; }
 
 /*----FOOTER------*/
 footer {
-  background-color: black;
   display: flex;
   justify-content: space-between; }
   footer a img {
@@ -465,7 +490,6 @@ footer {
     display: flex;
     align-items: center; }
     footer .redes h3 {
-      color: white;
       font-size: 20px;
       font-weight: 500;
       margin: 20px; }

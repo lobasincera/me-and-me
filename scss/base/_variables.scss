@@ -1,0 +1,205 @@
+//*VARIABLES
+
+$color-claro:white;
+$color-oscuro:black;
+
+
+
+//*LISTAS
+$paleta:
+#f567be,
+#38b6ff,
+#fdc4096b;
+
+
+
+//*EXTENDS
+%heroFoto{
+    width: 100%;
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+//*MIXINS
+@mixin flex ($display, $flexdirection, $align, $justify){
+    display: $display;
+    flex-direction: $flexdirection;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+.regalo .regaloRegalo .regaloFormulario{
+    @include flex(flex, column, center, center);
+}
+.cincoVentajas .cincoVentajasCinco{
+    @include flex(flex, column, null, center);
+}
+.testimonios{
+    @include flex(flex, column, null, null);
+    .testimoniosVideos{
+        @include flex(flex, null, center, space-evenly);
+    }
+}
+.cursosPagos{
+    .cursosPagosModulos{
+        @include flex(flex, null, null, space-evenly);
+    }
+}
+.fundamentos{
+    .gridFundamentos{
+        .boton{
+            @include flex(flex, column, null, center);
+        }
+    }
+} 
+.quienSoy{
+    @include flex(flex, row, center, null);
+    .soy{
+        @include flex(flex, column, null, center);
+    }
+}
+.contacto{
+    .mediosContacto{
+        @include flex(flex, row, null, space-evenly);
+    }
+}
+
+
+header{
+    nav{
+        background-color: nth($paleta, 1);
+    }
+}
+.queEs {
+    background-color: nth($paleta, 2);
+    .queEsLoQuiero {
+        a {
+            color: $color-claro;
+            background-color: nth($paleta, 1);
+            &:hover{
+                color: $color-oscuro;
+            }
+        }
+    }
+}
+.regalo{
+    background-color: $color-oscuro;
+    h2{
+        color: $color-claro;
+    }
+    .regaloRegalo{
+        .regaloFormulario{
+            p{
+                color: $color-claro
+            }
+            form{
+                div{
+                    label{
+                        color: $color-claro;
+                    }
+                    input{
+                        color: $color-claro;
+                        background-color: nth($paleta, 1);
+                        &:hover{
+                            color: $color-oscuro;
+                        }
+                    }
+                }
+                input{
+                    color:$color-claro;
+                    background-color: nth($paleta, 1);
+                    &:hover{
+                        color: $color-oscuro;
+                    }
+                }
+            }
+        }
+    }
+}
+.cincoVentajas{
+    background-color: nth($paleta, 3);
+}
+.testimonios{
+    background-color: nth($paleta, 1);
+}
+.cursosPagosModulos{
+    div{
+        a{
+            color: $color-claro;   
+            background-color: nth($paleta, 1);
+            &:hover{
+            color:$color-oscuro;
+            }
+        }
+    }
+}
+.fundamentos{
+    .gridFundamentos{
+        .boton{
+            a{
+                color: $color-claro;   
+                background-color: nth($paleta, 1);
+                &:hover{
+                color:$color-oscuro;
+                }
+            }
+        }
+    }
+}
+.quienSoy{
+    background-color: nth($paleta, 1);
+}
+.contacto{
+    .mediosContacto{
+        div{
+            a{
+                color: $color-claro;   
+                background-color: nth($paleta, 1);
+                &:hover{
+                color:$color-oscuro;
+                }
+            }
+        }
+    }
+}
+footer{
+    background-color: $color-oscuro;
+    .redes{
+        h3{
+            color: $color-claro;
+        }
+    }
+}
+.hero{
+    @extend%heroFoto;
+    h1{
+        color: nth($paleta, 2);
+    }
+}
+.heroMaster{
+    @extend%heroFoto;
+    h1{
+        color: nth($paleta, 2);
+    }
+}
+.astronauta{
+    @extend%heroFoto;
+    h1{
+        color: nth($paleta, 2);
+    }
+}
+.lamparita{
+    @extend%heroFoto;
+    h1{
+        color: nth($paleta, 2);
+    }
+}
+.heroContacto{
+    @extend%heroFoto;
+    h1{
+        color: nth($paleta, 2);
+    }
+}
